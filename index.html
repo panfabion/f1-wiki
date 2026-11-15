@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F1 賽車知識庫 | F1 Wiki</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col font-sans">
+
+  <!-- 頂部導覽列 (Navbar) -->
+  <header class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="flex items-center space-x-2 text-xl font-bold text-red-600 hover:text-red-500 transition">
+        <span>🏎️</span>
+        <span>F1 Wiki</span>
+      </a>
+      <nav class="flex space-x-6 text-sm font-medium">
+        <a href="index.html" class="text-red-600 font-bold transition">回首頁</a>
+        <a href="pages/ferrari.html" class="hover:text-red-500 transition">法拉利</a>
+        <a href="pages/red-bull.html" class="hover:text-blue-400 transition">紅牛</a>
+        <a href="pages/mercedes.html" class="hover:text-teal-400 transition">賓士</a>
+        <a href="pages/tyre-strategy.html" class="hover:text-red-500 transition">輪胎策略</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主要內容區 -->
+  <main class="flex-grow max-w-6xl mx-auto px-4 py-10 w-full">
+    <!-- 歡迎區塊 -->
+    <div class="mb-10 text-center md:text-left">
+      <h1 class="text-4xl font-extrabold mb-4 flex items-center justify-center md:justify-start gap-3">
+        <span>🏁</span>
+        <span>歡迎來到 F1 賽車知識庫</span>
+      </h1>
+      <p class="text-gray-300 text-lg leading-relaxed max-w-3xl">
+        歡迎來到專為新進車迷打造的 Formula 1 觀賽指南。在這裡你可以探索頂級車隊的底蘊與代表色風格、認識現役頂尖王牌車手，並掌握決定勝負關鍵的輪胎進站策略。讓我們一起進入極速奔馳的頂級賽車世界！
+      </p>
+    </div>
+
+    <!-- 三大頂級車隊專區 (依車隊代表色規劃) -->
+    <div class="mb-12">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+          <span>🏆</span> 頂尖車隊巡禮 (The Big Three)
+        </h2>
+        <span class="text-xs text-gray-400">點擊探索各隊專屬代表色與陣容</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- 1. 法拉利車隊 (經典烈焰紅) -->
+        <div class="rounded-lg bg-gray-800 p-6 shadow-md border border-red-700/60 flex flex-col justify-between hover:border-red-500 transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-xl font-bold text-red-500 flex items-center gap-2">
+                <span>🐎</span> 法拉利 (Ferrari)
+              </h3>
+              <span class="text-xs bg-red-600 text-white px-2 py-0.5 rounded font-semibold">經典紅</span>
+            </div>
+            <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+              F1 歷史最悠久全勤廠隊，坐擁 16 座車隊世界冠軍，以躍馬標誌與義大利熱血傳奇著稱。
+            </p>
+            <ul class="text-xs text-gray-400 space-y-1 mb-6 list-disc list-inside">
+              <li>車手陣容：Leclerc (#16) & Hamilton (#44)</li>
+              <li>總部基地：義大利 馬拉內羅</li>
+              <li>代表顏色：Rosso Corsa 經典烈焰紅</li>
+            </ul>
+          </div>
+          <a href="pages/ferrari.html" class="inline-block text-center bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded text-sm transition">
+            探索法拉利車隊 &rarr;
+          </a>
+        </div>
+
+        <!-- 2. 紅牛車隊 (深海軍藍 & 金黃) -->
+        <div class="rounded-lg bg-gray-800 p-6 shadow-md border border-blue-700/60 flex flex-col justify-between hover:border-blue-500 transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-xl font-bold text-blue-400 flex items-center gap-2">
+                <span>🐂</span> 紅牛 (Red Bull)
+              </h3>
+              <span class="text-xs bg-blue-600 text-white px-2 py-0.5 rounded font-semibold">海軍藍</span>
+            </div>
+            <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+              以空力大師 Newey 設計與 1.82 秒神級進站聞名，近代狂攬多屆冠軍的絕對統治者。
+            </p>
+            <ul class="text-xs text-gray-400 space-y-1 mb-6 list-disc list-inside">
+              <li>車手陣容：Verstappen (#1) & Pérez (#11)</li>
+              <li>總部基地：英國 米爾頓凱恩斯</li>
+              <li>代表顏色：Racing Navy 深海軍藍 + 烈陽金</li>
+            </ul>
+          </div>
+          <a href="pages/red-bull.html" class="inline-block text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded text-sm transition">
+            探索紅牛車隊 &rarr;
+          </a>
+        </div>
+
+        <!-- 3. 賓士車隊 (銀箭 & 馬石油綠) -->
+        <div class="rounded-lg bg-gray-800 p-6 shadow-md border border-teal-700/60 flex flex-col justify-between hover:border-teal-400 transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-xl font-bold text-teal-400 flex items-center gap-2">
+                <span>⭐</span> 賓士 (Mercedes)
+              </h3>
+              <span class="text-xs bg-teal-600 text-white px-2 py-0.5 rounded font-semibold">馬石油綠</span>
+            </div>
+            <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+              混動時代創下史無前例 8 連霸的銀箭王朝，結合德國精密工程與全新一代年輕陣容。
+            </p>
+            <ul class="text-xs text-gray-400 space-y-1 mb-6 list-disc list-inside">
+              <li>車手陣容：Russell (#63) & Antonelli (#12)</li>
+              <li>總部基地：英國 布拉克利</li>
+              <li>代表顏色：Petronas Teal 湖水綠 + 經典銀</li>
+            </ul>
+          </div>
+          <a href="pages/mercedes.html" class="inline-block text-center bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-4 rounded text-sm transition">
+            探索賓士車隊 &rarr;
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 輪胎策略卡片區 -->
+    <div class="rounded-lg bg-gray-800 p-6 shadow-md border border-gray-700 mb-12 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="max-w-2xl">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="text-2xl">🛞</span>
+          <h2 class="text-2xl font-bold text-red-600">輪胎策略指南 (Tyre Strategy)</h2>
+          <span class="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">觀賽核心</span>
+        </div>
+        <p class="text-gray-300 text-sm leading-relaxed mb-3">
+          輪胎配方與進站換胎時機是 F1 策略博弈的心臟。探索軟胎 (紅)、中性胎 (黃)、硬胎 (白) 與半雨胎 (綠)、全雨胎 (藍) 的抓地力曲線與 Undercut 超車戰術。
+        </p>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <span class="bg-red-900/40 text-red-300 border border-red-700 px-2 py-1 rounded">🔴 軟胎 (Soft)</span>
+          <span class="bg-yellow-900/40 text-yellow-300 border border-yellow-700 px-2 py-1 rounded">🟡 中性胎 (Medium)</span>
+          <span class="bg-gray-700 text-gray-200 border border-gray-500 px-2 py-1 rounded">⚪ 硬胎 (Hard)</span>
+          <span class="bg-green-900/40 text-green-300 border border-green-700 px-2 py-1 rounded">🟢 半雨胎 (Inter)</span>
+          <span class="bg-blue-900/40 text-blue-300 border border-blue-700 px-2 py-1 rounded">🔵 全雨胎 (Wet)</span>
+        </div>
+      </div>
+      <a href="pages/tyre-strategy.html" class="whitespace-nowrap bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded transition">
+        探索完整輪胎策略 &rarr;
+      </a>
+    </div>
+
+    <!-- 知識庫重點摘要清單 -->
+    <section class="rounded-lg bg-gray-800 p-6 shadow-md border border-gray-700">
+      <h3 class="text-xl font-bold text-gray-100 mb-4 flex items-center gap-2">
+        <span>📖</span> 新手觀賽三大核心重點
+      </h3>
+      <ul class="space-y-3 text-gray-300">
+        <li class="flex items-start gap-2">
+          <span class="text-red-600 font-bold">•</span>
+          <span><strong>排位賽 (Qualifying)：</strong>週六決定的起跑順位至關重要，排位名次往往直接影響週日正賽的進攻與防守佈局。</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-red-600 font-bold">•</span>
+          <span><strong>進站策略 (Pit Stop)：</strong>每次進站約耗時 20-25 秒（換胎動作僅需 1.8 至 3 秒），換胎窗口的決策經常逆轉整場比賽戰局。</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="text-red-600 font-bold">•</span>
+          <span><strong>DRS 可變尾翼系統：</strong>當後車距離前車 1 秒內時可開啟尾翼降低阻力，是現代 F1 創造超車的最主要機制。</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- 頁尾 (Footer) -->
+  <footer class="bg-gray-800 border-t border-gray-700 py-6 text-center text-sm text-gray-400">
+    <div class="max-w-6xl mx-auto px-4">
+      <p>© F1 Wiki 賽車策略與觀賽知識庫. 嚴格依照 AGENTS.md 規範建置.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>紅牛車隊 (Red Bull Racing) | F1 Wiki</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen flex flex-col font-sans">
+
+  <!-- 頂部導覽列 (Navbar) -->
+  <header class="bg-gray-800 border-b border-gray-700 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="../index.html" class="flex items-center space-x-2 text-xl font-bold text-red-600 hover:text-red-500 transition">
+        <span>🏎️</span>
+        <span>F1 Wiki</span>
+      </a>
+      <nav class="flex space-x-6 text-sm font-medium">
+        <a href="../index.html" class="hover:text-red-500 transition">回首頁</a>
+        <a href="ferrari.html" class="hover:text-red-500 transition">法拉利</a>
+        <a href="red-bull.html" class="text-blue-500 font-bold transition">紅牛</a>
+        <a href="mercedes.html" class="hover:text-teal-400 transition">賓士</a>
+        <a href="tyre-strategy.html" class="hover:text-red-500 transition">輪胎策略</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主要內容區 -->
+  <main class="flex-grow max-w-6xl mx-auto px-4 py-10 w-full">
+    <!-- 車隊標題與簡介 (紅牛海軍藍與金黃色彩) -->
+    <div class="mb-10">
+      <div class="flex items-center gap-3 mb-3">
+        <span class="text-xs bg-blue-600 text-white font-semibold px-2.5 py-1 rounded">能量飲料霸主</span>
+        <span class="text-xs text-yellow-400 font-medium">Oracle Red Bull Racing</span>
+      </div>
+      <h1 class="text-4xl font-extrabold mb-4 flex items-center gap-3 text-white">
+        <span>🐂</span>
+        <span>Oracle Red Bull Racing 紅牛車隊</span>
+      </h1>
+      <p class="text-gray-300 text-lg leading-relaxed max-w-4xl">
+        Red Bull Racing 成立於 2005 年，由奧地利能量飲料巨擘紅牛創立，以大膽不羈的年輕文化與極致的空氣動力學創新顛覆了傳統歐洲賽車貴族體系。車隊在天才空力大師 Adrian Newey 的設計加持下，憑藉極致靈活的底盤與秒殺全場的快速進站策略，締造了兩大輝煌統治時期。紅牛代表著賽車場上最凌厲的進攻節奏與無與倫比的王者霸氣。
+      </p>
+    </div>
+
+    <!-- 車隊資訊與戰績表格 (Table - 藍色與金黃強調) -->
+    <div class="rounded-lg bg-gray-800 p-6 shadow-md border border-blue-900/60 mb-10">
+      <h2 class="text-2xl font-bold text-blue-400 mb-4 flex items-center gap-2">
+        <span>📊</span> 車隊歷史與關鍵統計
+      </h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-gray-700 text-gray-400 text-sm">
+              <th class="py-3 px-4">項目</th>
+              <th class="py-3 px-4">詳細資訊</th>
+              <th class="py-3 px-4">備註</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-700 text-gray-200 text-sm">
+            <tr class="hover:bg-gray-700/50 transition">
+              <td class="py-3 px-4 font-semibold text-gray-100">創立與總部</td>
+              <td class="py-3 px-4">英國 米爾頓凱恩斯 (Milton Keynes, UK)</td>
+              <td class="py-3 px-4 text-gray-400">擁有頂級研發工廠與紅牛動力總成部門 (RBPT)</td>
+            </tr>
+            <tr class="hover:bg-gray-700/50 transition">
+              <td class="py-3 px-4 font-semibold text-gray-100">首次參賽</td>
+              <td class="py-3 px-4">2005 年 澳大利亞大獎賽</td>
+              <td class="py-3 px-4 text-gray-400">前身為 Jaguar Racing 車隊</td>
+            </tr>
+            <tr class="hover:bg-gray-700/50 transition">
+              <td class="py-3 px-4 font-semibold text-gray-100">車隊總冠軍 (Constructors' Titles)</td>
+              <td class="py-3 px-4 font-bold text-blue-400">6 次</td>
+              <td class="py-3 px-4 text-gray-400">2010-2013 (4連霸), 2022, 2023</td>
+            </tr>
+            <tr class="hover:bg-gray-700/50 transition">
+              <td class="py-3 px-4 font-semibold text-gray-100">車手總冠軍 (Drivers' Titles)</td>
+              <td class="py-3 px-4 font-bold text-yellow-400">7 次</td>
+              <td class="py-3 px-4 text-gray-400">Sebastian Vettel (4次)、Max Verstappen (3+次)</td>
+            </tr>
+            <tr class="hover:bg-gray-700/50 transition">
+              <td class="py-3 px-4 font-semibold text-gray-100">傳奇進站神話</td>
+              <td class="py-3 px-4 text-blue-400">1.82 秒世界紀錄</td>
+              <td class="py-3 px-4 text-gray-400">長年包攬 DHL 最快進站團隊殊榮</td>
+            </tr>
+            <tr class="hover:bg-gray-700/50 transition">
+              <td class="py-3 px-4 font-semibold text-gray-100">車隊執行長兼領隊</td>
+              <td class="py-3 px-4">Christian Horner (克里斯蒂安·霍納)</td>
+              <td class="py-3 px-4 text-gray-400">自 2005 年創隊起執掌至今的功勳領隊</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 現役車手名單區塊 (Cards - 藍色代表風格) -->
+    <div class="mb-10">
+      <h2 class="text-2xl font-bold text-blue-400 mb-6 flex items-center gap-2">
+        <span>🏎️</span> 現役主力車手陣容
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- 車手 1: Max Verstappen -->
+        <div class="rounded-lg bg-gray-800 p-6 shadow-md border border-blue-800/80 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center space-x-3">
+                <span class="text-3xl font-extrabold text-blue-500">#1</span>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-100">Max Verstappen</h3>
+                  <p class="text-xs text-gray-400">馬克斯·維斯塔潘 🇳🇱 荷蘭</p>
+                </div>
+              </div>
+              <span class="text-xs bg-blue-900/60 text-blue-300 border border-blue-600 px-2 py-1 rounded">世界冠軍王者</span>
+            </div>
+            <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+              當代 F1 無可爭議的統治級王者，以冷酷沉著的心態、極限的雨戰本領以及摧枯拉朽的長距離正賽節奏摧毀對手，創下单季 19 勝等諸多歷史紀錄。
+            </p>
+            <ul class="text-xs text-gray-400 space-y-1 mb-4 list-disc list-inside">
+              <li>青年紀錄：以 17 歲成為歷史最年輕起跑車手，18 歲奪得首座分站冠軍</li>
+              <li>連霸王朝：2021-2023 連續稱霸車手總冠軍，勝率高達 86%</li>
+              <li>技術特點：過彎極限掌握力驚人、全天候輪胎管理頂尖</li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-gray-700 flex justify-between items-center text-xs text-gray-400">
+            <span>代號：Super Max</span>
+            <span class="text-blue-400 font-semibold">合約：長約至 2028</span>
+          </div>
+        </div>
+
+        <!-- 車手 2: Sergio Pérez -->
+        <div class="rounded-lg bg-gray-800 p-6 shadow-md border border-blue-800/80 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center space-x-3">
+                <span class="text-3xl font-extrabold text-blue-500">#11</span>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-100">Sergio Pérez</h3>
+                  <p class="text-xs text-gray-400">塞吉歐·培瑞茲 🇲🇽 墨西哥</p>
+                </div>
+              </div>
+              <span class="text-xs bg-yellow-900/40 text-yellow-300 border border-yellow-600/50 px-2 py-1 rounded">輪胎守護大師</span>
+            </div>
+            <p class="text-gray-300 text-sm mb-4 leading-relaxed">
+              被譽為「保胎大師 (Tyre Whisperer)」與「街道賽之王 (King of the Streets)」，是車隊奪得車隊總冠軍不可或缺的堅固後盾與攻防支柱。
+            </p>
+            <ul class="text-xs text-gray-400 space-y-1 mb-4 list-disc list-inside">
+              <li>代表賽事：2021 阿布達比最終戰英雄般阻擋 Hamilton 為隊友護航</li>
+              <li>街道賽專長：摩納哥、巴庫、新加坡與吉達等多個高難度街道賽奪冠</li>
+              <li>戰術特質：具備極長胎命延伸能力，為策略團隊提供多樣進站可能</li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-gray-700 flex justify-between items-center text-xs text-gray-400">
+            <span>暱稱：Checo</span>
+            <span class="text-yellow-400 font-semibold">特長：街道賽強者</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- 底部導覽連結 -->
+    <div class="flex justify-between items-center pt-6 border-t border-gray-800">
+      <a href="ferrari.html" class="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-red-500 transition">
+        <span>&larr;</span> 上一隊：法拉利車隊
+      </a>
+      <a href="mercedes.html" class="inline-flex items-center gap-2 text-sm text-teal-400 hover:text-teal-300 font-medium transition">
+        下一隊：賓士車隊 <span>&rarr;</span>
+      </a>
+    </div>
+  </main>
+
+  <!-- 頁尾 (Footer) -->
+  <footer class="bg-gray-800 border-t border-gray-700 py-6 text-center text-sm text-gray-400">
+    <div class="max-w-6xl mx-auto px-4">
+      <p>© F1 Wiki 賽車策略與觀賽知識庫. 嚴格依照 AGENTS.md 規範建置.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
